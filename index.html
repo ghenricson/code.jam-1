@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Number Game</title>
+        <link rel="stylesheet" href="style.css" />
+<!--         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        /> -->
+    </head>
+    <body>
+        <div class="container">
+            <h1>Number Guessing Game</h1>
+            <h2>I am thinking of a number between 1-100.</h2>
+            <h3>Can you guess it?</h3>
+            <input type="text" placeholder="Number" id="guess" /><br />
+            <button onclick="play()" id="my_btn">GUESS</button>
+            <p id="message1">Number of guesses: 0</p>
+            <p id="message2"></p>
+            <p id="message3"></p>
+        </div>
+        <script src="/app.js"></script>
+    </body>
+</html>
